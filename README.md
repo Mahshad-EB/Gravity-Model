@@ -57,7 +57,7 @@ $$ \text{error} = \frac{\sum_i |\sum_j T_{ij} - O_i| + \sum_j |\sum_i T_{ij} - D
 This iterative process ensures the Gravity Model accurately reflects the complex dynamics of trip distribution, making it a powerful tool for urban transportation planning. Its ability to adapt to various scenarios, particularly in the absence of historical data, highlights its importance in developing efficient and responsive transportation systems.
 
 ## Code Script
-______________________________________________________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________________________________________________________________________
 
 In the implementation of the Gravity Model, a Python script has been developed, providing a computational realization of the algorithm. The script includes a function named `gravity_distribution`, designed to generate an Origin-Destination (OD) matrix based on given inputs.
 
@@ -80,6 +80,7 @@ Key features of the script include:
 This script acts as a practical tool for utilizing the Gravity Model, enabling users to efficiently implement the algorithm while adapting it to the specific constraints of their transportation scenario.
 
 ## Deterrence Matrix Calculation
+_____________________________________________________________________________________________________________________________________________________________________________________________________
 
 In the Gravity Model, deterrence functions play a crucial role in defining the impedance or reluctance to travel between zones. Various functional forms can be used to represent the deterrence effect based on travel cost (`cij`). Below are some common deterrence functions:
 
