@@ -3,7 +3,7 @@
 The Gravity Model, introduced by Casey in 1955, is one of the most widely used synthetic distribution models in transportation planning. Drawing from Newton’s law of gravity, it assumes that trip flows between zones are influenced by their activity level (similar to mass) and the distance or cost separating them. This model is particularly advantageous because it can estimate Origin-Destination matrices even in the absence of prior travel data. However, its accuracy improves with inputs like population, employment, and economic activity levels, along with observed trip data from surveys or historical records for calibration. It also benefits from trip production and attraction rates to ensure balanced trip flows, mode-specific factors for transport preferences, and time-based variations to account for peak and off-peak travel behavior. Despite its simplicity, the Gravity Model remains a powerful tool for transportation network analysis, especially when historical travel patterns are unavailable.
 
 ## Overview of the Method
-______________________________________________________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________________________________________________________________________
 
 The Furness method offers an algorithmic approach to address the intricacies of the doubly constrained growth-factor problem in transportation planning. The predicted number of trips from zone $i$ to zone $j$, denoted as $T_{ij}$, is given by the formula:
 
